@@ -8,7 +8,7 @@ npm install
 ```
 
 to run 
-make sure mongodb is running as it set as localhost
+connect mongo shell
 ```
 npm run serve:local
 
