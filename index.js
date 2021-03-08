@@ -27,7 +27,7 @@ app.use(session({
   cookie: { secure: false },
   store: MongoStore.create({
     // mongoConnection: mongoDbConnection
-    mongoUrl: 'mongodb://localhost/x-store'
+    mongoUrl: 'mongodb://localhost:27017/x-store'
   })
 }))
 
